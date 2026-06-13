@@ -3,10 +3,10 @@
 ## Day 1 - Core Survivor Gameplay
 
 ### Crawl System
-- [ ] Crawling state
-- [ ] Crawl animations
-- [ ] Crawl movement speed
-- [ ] Server validation
+- [x] Crawling state
+- [x] Crawl animations
+- [x] Crawl movement speed
+- [x] Server validation
 
 ### Computer Hacking System
 - [ ] Computer interact prompt
