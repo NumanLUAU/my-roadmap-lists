@@ -17,9 +17,9 @@
 - [ ] Shared progress replication
 
 ### Test Dummies
-- [ ] Survivor dummy
-- [ ] Beast dummy
-- [ ] Dummy spawning utility
+- [x] Survivor dummy
+- [x] Beast dummy
+- [x] Dummy spawning utility
 
 ### Architecture
 - [ ] Character state system
