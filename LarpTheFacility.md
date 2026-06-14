@@ -32,30 +32,30 @@
 ## Day 2 - Roles & Combat
 
 ### Role System
-- [ ] Survivor role
-- [ ] Beast role
-- [ ] Team assignment
-- [ ] Spawn logic
-- [ ] Dummy role support
+- [x] Survivor role
+- [x] Beast role
+- [x] Team assignment
+- [x] Spawn logic
+- [x] Dummy role support
 
 ### Hammer System
-- [ ] Hammer equip
-- [ ] Swing animations
-- [ ] Swing cooldown
-- [ ] Server hit validation
+- [x] Hammer equip
+- [x] Swing animations
+- [x] Swing cooldown
+- [x] Server hit validation
 
 ### Hitbox System
-- [ ] Dynamic hitboxes
-- [ ] Lag compensation
-- [ ] Anti exploit validation
-- [ ] Damage event pipeline
+- [x] Dynamic hitboxes
+- [x] Lag compensation
+- [x] Anti exploit validation
+- [x] Damage event pipeline
 
 ### Character States
-- [ ] Alive
-- [ ] Downed
-- [ ] Dragged
-- [ ] Frozen
-- [ ] Escaped
+- [x] Alive
+- [x] Downed
+- [x] Dragged
+- [x] Frozen
+- [x] Escaped
 
 ---
 
@@ -67,8 +67,8 @@
 - [ ] Recovery prevention
 
 ### Dragging System
-- [ ] Rope attachment
-- [ ] Dragged state
+- [x] Rope attachment
+- [x] Dragged state
 - [ ] Drag movement
 - [ ] Release system
 
