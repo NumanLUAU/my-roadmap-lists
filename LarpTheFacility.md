@@ -22,10 +22,10 @@
 - [x] Dummy spawning utility
 
 ### Architecture
-- [ ] Character state system
-- [ ] Interaction framework
-- [ ] Replication framework
-- [ ] Object tagging system
+- [x] Character state system
+- [x] Interaction framework
+- [x] Replication framework
+- [x] Object tagging system
 
 ---
 
