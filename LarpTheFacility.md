@@ -9,12 +9,12 @@
 - [x] Server validation
 
 ### Computer Hacking System
-- [ ] Computer interact prompt
-- [ ] Hacking progress
+- [x] Computer interact prompt
+- [x] Hacking progress
 - [ ] Skill check system
 - [ ] Failure penalties
-- [ ] Computer completion tracking
-- [ ] Shared progress replication
+- [x] Computer completion tracking
+- [x] Shared progress replication
 
 ### Test Dummies
 - [x] Survivor dummy
