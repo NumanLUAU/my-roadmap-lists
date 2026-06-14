@@ -11,8 +11,8 @@
 ### Computer Hacking System
 - [x] Computer interact prompt
 - [x] Hacking progress
-- [ ] Skill check system
-- [ ] Failure penalties
+- [x] Skill check system
+- [x] Failure penalties
 - [x] Computer completion tracking
 - [x] Shared progress replication
 
