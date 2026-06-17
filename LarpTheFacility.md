@@ -62,43 +62,43 @@
 ## Day 3 - Downing, Dragging & Freezers
 
 ### Ragdoll System
-- [ ] Beast attacks cause ragdoll
-- [ ] Ragdoll replication
-- [ ] Recovery prevention
+- [x] Beast attacks cause ragdoll
+- [x] Ragdoll replication
+- [x] Recovery prevention
 
 ### Dragging System
 - [x] Rope attachment
 - [x] Dragged state
-- [ ] Drag movement
-- [ ] Release system
+- [x] Drag movement
+- [x] Release system
 
 ### Freezer Detection
-- [ ] Highlight nearby freezers
-- [ ] Beast freezer prompts
-- [ ] Freezer occupancy tracking
+- [x] Highlight nearby freezers
+- [x] Beast freezer prompts
+- [x] Freezer occupancy tracking
 
 ### Freezer System
-- [ ] Place survivor into freezer
-- [ ] Frozen state
-- [ ] Freezer timers
-- [ ] HP drain while frozen
-- [ ] Survivor rescue interaction
+- [x] Place survivor into freezer
+- [x] Frozen state
+- [x] Freezer timers
+- [x] HP drain while frozen
+- [x] Survivor rescue interaction
 
 ### Anti-Camp System
-- [ ] Beast distance monitoring
-- [ ] Camp detection
-- [ ] Reduced freezer decay while camping
-- [ ] Camp warning system
+- [x] Beast distance monitoring
+- [x] Camp detection
+- [x] Reduced freezer decay while camping
+- [x] Camp warning system
 
 ---
 
 ## Day 4 - Objectives, Abilities & Rounds
 
 ### Exit Phase
-- [ ] Detect all completed computers
-- [ ] Objective switch
-- [ ] Exit highlighting
-- [ ] Exit interaction
+- [x] Detect all completed computers
+- [x] Objective switch
+- [x] Exit highlighting
+- [x] Exit interaction
 
 ### Ability Framework
 
@@ -122,15 +122,15 @@
 - [ ] Loadouts
 
 ### Round System
-- [ ] Lobby state
-- [ ] Intermission
-- [ ] Round start
-- [ ] Round end
-- [ ] Winner determination
+- [x] Lobby state
+- [x] Intermission
+- [x] Round start
+- [x] Round end
+- [x] Winner determination
 
 ### Player Requirements
-- [ ] Minimum 2 players
-- [ ] Auto start checks
+- [x] Minimum 2 players
+- [x] Auto start checks
 
 ---
 
@@ -139,14 +139,14 @@
 ### Dynamic Map System
 
 #### Map Loader
-- [ ] Map loading
-- [ ] Map unloading
-- [ ] Spawn generation
-- [ ] Round integration
+- [x] Map loading
+- [x] Map unloading
+- [x] Spawn generation
+- [x] Round integration
 
 #### Computer Spawning
-- [ ] Spawn point tags
-- [ ] Dynamic computer placement
+- [x] Spawn point tags
+- [x] Dynamic computer placement
 
 Example:
 
@@ -169,18 +169,18 @@ Rules:
 - Prevent softlocks from camping
 
 ### Beast Scaling
-- [ ] 1 Beast if ≤ 5 players
-- [ ] 2 Beasts if ≥ 6 players
+- [x] 1 Beast if ≤ 5 players
+- [x] 2 Beasts if ≥ 6 players
 
 ### Beast Movement
-- [ ] Jump slowdown
-- [ ] Recovery timer
-- [ ] Speed restoration after 0.8s
-- [ ] Timer reset on repeated jumps
+- [x] Jump slowdown
+- [x] Recovery timer
+- [x] Speed restoration after 0.8s
+- [x] Timer reset on repeated jumps
 
 ### Beast Recovery
-- [ ] 3 second stun after successful hit
-- [ ] Recovery state handling
+- [x] 3 second stun after successful hit
+- [x] Recovery state handling
 
 ### Ability Production Pass
 - [ ] Create all Survivor abilities
@@ -191,45 +191,13 @@ Rules:
 ### Final Polish
 - [ ] Testing
 - [ ] Bug fixing
-- [ ] Replication optimization
+- [x] Replication optimization
 - [ ] Exploit prevention
 - [ ] Performance profiling
 
 ---
 
 # Final Architecture
-
-## Initializer
-
-```text
-ReplicatedStorage
-└── Shared
-    ├── Framework
-    ├── States
-    ├── Abilities
-    ├── Roles
-    ├── Maps
-    └── Config
-
-ServerScriptService
-└── Server
-    ├── RoundService
-    ├── RoleService
-    ├── AbilityService
-    ├── CombatService
-    ├── DragService
-    ├── FreezerService
-    ├── ComputerService
-    └── MapService
-
-StarterPlayer
-└── StarterPlayerScripts
-    └── Client
-        ├── AbilityController
-        ├── UIController
-        ├── InteractionController
-        └── CameraController
-```
 
 ## Abilities
 
@@ -264,17 +232,4 @@ return {
     Deactivate = function(player)
     end
 }
-```
-
-## Character State Machine
-
-```text
-Alive
- ├─> Crawling
- ├─> Hacking
- ├─> Downed
- │     └─> Dragged
- │             └─> Frozen
- │
- └─> Escaped
 ```
